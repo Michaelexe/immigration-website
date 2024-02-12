@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e8e8e8;
+}
+
 #root {
   min-height: 100vh;
   display: flex;
@@ -15,4 +19,13 @@
   --red: #e6212a;
   --maroon: #b5161b;
   --blue: #004aad;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

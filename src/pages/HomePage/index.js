@@ -1,7 +1,12 @@
 import React from "react";
+import Services from "./Services";
 
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Services />
+    </>
+  );
 }
 
 export default HomePage;
