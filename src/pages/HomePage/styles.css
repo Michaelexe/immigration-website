@@ -1,3 +1,60 @@
+.home-intro {
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1524187257221-4d3ffd2e68b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  box-shadow: 0px 0px 20px black;
+}
+
+.home-intro::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-intro .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+}
+
+.home-intro .container h1 {
+  font-size: 45px;
+  border-bottom: 5px solid var(--red);
+  padding: 5px 40px;
+}
+
+.home-intro .container p {
+  width: 24.3ch;
+  font-size: 35px;
+  padding: 5px;
+  font-weight: 500;
+  border-right: 3px solid;
+  animation: blink 1s step-end infinite, type 2.5s steps(24) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+/* ----------------Service section ------------------------------ */
 .home-service h1 {
   font-size: 35px;
   font-weight: 500;
@@ -20,7 +77,7 @@
   flex-direction: column;
   justify-content: space-around;
   border-radius: 5px;
-  gap: 5px;
+  gap: 10px;
   transition: 250ms all ease-in;
 }
 

@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import "./styles.css";
 import logoPNG from "../../assets/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const navbarRef = useRef();
+  const location = useLocation();
+
+  useEffect(() => {
+    let body = document.body;
+    window.onscroll = () => {
+      if (window.scrollY < 200 && location.pathname == "/") {
+        navbarRef.current.classList.remove("scrolled");
+      } else {
+        navbarRef.current.classList.add("scrolled");
+      }
+    };
+    console.log(location.pathname);
+    if (location.pathname != "/") {
+      navbarRef.current.classList.add("scrolled");
+    } else {
+      navbarRef.current.classList.remove("scrolled");
+    }
+  }, [location]);
+
   return (
-    <div className="navbar">
+    <div className="navbar" ref={navbarRef}>
       <img src={logoPNG} alt="" className="logo" />
       <ul className="pages">
         <li>
