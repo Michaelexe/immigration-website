@@ -48,6 +48,28 @@ function Services() {
           </span>
           <button>Read More</button>
         </div>
+        <div className="service-card">
+          <span className="header">Study In Canada</span>
+          <span className="description">
+            Unlock the doors to world-class education in Canada with our
+            dedicated Study in Canada services. From university admissions to
+            visa applications, we support your academic journey, ensuring you
+            experience the enriching culture and quality education Canada has to
+            offer.
+          </span>
+          <button>Read More</button>
+        </div>
+        <div className="service-card">
+          <span className="header">Study In Canada</span>
+          <span className="description">
+            Unlock the doors to world-class education in Canada with our
+            dedicated Study in Canada services. From university admissions to
+            visa applications, we support your academic journey, ensuring you
+            experience the enriching culture and quality education Canada has to
+            offer.
+          </span>
+          <button>Read More</button>
+        </div>
       </div>
     </section>
   );

@@ -17,7 +17,6 @@ function Navbar() {
         navbarRef.current.classList.add("scrolled");
       }
     };
-    console.log(location.pathname);
     if (location.pathname != "/") {
       navbarRef.current.classList.add("scrolled");
     } else {

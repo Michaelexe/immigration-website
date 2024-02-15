@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e8e8e8;
+  background-color: #e9ecef;
 }
 
 #root {
@@ -18,7 +18,7 @@ body {
 :root {
   --red: #e6212a;
   --maroon: #b5161b;
-  --blue: #004aad;
+  --blue: #012a4a;
 }
 
 .section {
