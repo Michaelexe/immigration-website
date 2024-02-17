@@ -49,24 +49,22 @@ function Services() {
           <button>Read More</button>
         </div>
         <div className="service-card">
-          <span className="header">Study In Canada</span>
+          <span className="header">Immigration for French Speakers</span>
           <span className="description">
-            Unlock the doors to world-class education in Canada with our
-            dedicated Study in Canada services. From university admissions to
-            visa applications, we support your academic journey, ensuring you
-            experience the enriching culture and quality education Canada has to
-            offer.
+            Bienvenue! Streamline your Canadian immigration journey with Canada
+            PR Calling. We offer anywhere from tailored French exam coaching, to
+            Express Entry Applications for our Francophone individuals seeking a
+            new home in Canada.
           </span>
           <button>Read More</button>
         </div>
         <div className="service-card">
-          <span className="header">Study In Canada</span>
+          <span className="header">Business Investor Visa</span>
           <span className="description">
-            Unlock the doors to world-class education in Canada with our
-            dedicated Study in Canada services. From university admissions to
-            visa applications, we support your academic journey, ensuring you
-            experience the enriching culture and quality education Canada has to
-            offer.
+            Unlock economic opportunities with Canada PR Calling. Our experts
+            simplify the Business Investor Visa process, guiding you through
+            investments and applications. Propel your business forward in Canada
+            with our specialized services.
           </span>
           <button>Read More</button>
         </div>

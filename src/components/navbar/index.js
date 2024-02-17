@@ -9,15 +9,14 @@ function Navbar() {
   const location = useLocation();
 
   useEffect(() => {
-    let body = document.body;
     window.onscroll = () => {
-      if (window.scrollY < 200 && location.pathname == "/") {
+      if (window.scrollY < 200 && location.pathname === "/") {
         navbarRef.current.classList.remove("scrolled");
       } else {
         navbarRef.current.classList.add("scrolled");
       }
     };
-    if (location.pathname != "/") {
+    if (location.pathname !== "/") {
       navbarRef.current.classList.add("scrolled");
     } else {
       navbarRef.current.classList.remove("scrolled");

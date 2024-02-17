@@ -1,16 +1,44 @@
 .service-container {
-  max-width: 1000px;
+  max-width: 1200px;
   width: calc(100% - 20px);
   display: flex;
   margin: 110px auto 30px auto;
+  gap: 20px;
 }
 
 .service-container .quick-links {
+  position: sticky;
+  top: 95px;
   width: 300px;
+  flex-shrink: 0;
+  height: fit-content;
 }
 
-.service-container .quick-links .content {
-  width: 100%;
+.service-container .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px lightgray;
+  height: fit-content;
+}
+
+.service-container .content p {
+  font-family: Roboto;
+}
+
+.service-container .content ul,
+.service-container .content ol {
+  display: grid;
+  gap: 10px;
+  padding-left: 20px;
+  font-family: Roboto;
+}
+
+.service-container .content li ul {
+  margin-top: 10px;
 }
 
 .service-container .quick-links .accord.Mui-expanded {
