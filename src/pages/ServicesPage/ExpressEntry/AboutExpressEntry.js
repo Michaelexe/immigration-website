@@ -24,8 +24,8 @@ function AboutExpressEntry() {
         the Provincial Nominee Program (PNP), where candidates express an intent
         to settle in a particular province and receive a nomination letter. This
         PNP nomination carries 600 additional points in the candidate's Express
-        Entry profile. For more informtion,{" "}
-        <Link to="/services/pnp/what-is-pnp">Click here.</Link>
+        Entry profile. For more information,{" "}
+        <Link to="/services/pnp/what-is-pnp">click here.</Link>
       </p>
       <h2>Who can apply through the Express Entry Canada system?</h2>
       <p>

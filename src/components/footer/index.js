@@ -57,7 +57,7 @@ function Footer() {
         <div className="contact column">
           <div>
             <span className="header">Email:</span>
-            <span>contact@skywhitenorth.ca</span>
+            <span>contact@canadaprcalling.com</span>
           </div>
           <div>
             <span className="header">Phone:</span>

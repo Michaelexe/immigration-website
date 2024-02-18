@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -15,7 +16,9 @@ function Services() {
             profile creation, and submission process, ensuring your journey to
             Canada is swift and successful.
           </span>
-          <button>Read More</button>
+          <Link className="read-more" to="/services/express-entry/about">
+            Read More
+          </Link>
         </div>
         <div className="service-card">
           <span className="header">Work in Canada</span>
@@ -25,7 +28,9 @@ function Services() {
             applications, we pave the way for your professional success in one
             of the world's most welcoming and dynamic job markets.
           </span>
-          <button>Read More</button>
+          <Link className="read-more" to="/services/work/why-work-in-canada">
+            Read More
+          </Link>
         </div>
         <div className="service-card">
           <span className="header">Provincial Nominee Program</span>
@@ -35,7 +40,9 @@ function Services() {
             our experts assist you in securing a provincial nomination,
             fast-tracking your pathway to Canadian permanent residency.
           </span>
-          <button>Read More</button>
+          <Link className="read-more" to="/services/pnp/what-is-pnp">
+            Read More
+          </Link>
         </div>
         <div className="service-card">
           <span className="header">Study In Canada</span>
@@ -46,7 +53,7 @@ function Services() {
             experience the enriching culture and quality education Canada has to
             offer.
           </span>
-          <button>Read More</button>
+          <Link className="read-more">Read More</Link>
         </div>
         <div className="service-card">
           <span className="header">Immigration for French Speakers</span>
@@ -56,7 +63,12 @@ function Services() {
             Express Entry Applications for our Francophone individuals seeking a
             new home in Canada.
           </span>
-          <button>Read More</button>
+          <Link
+            className="read-more"
+            to="/services/francophone/francophone-boom"
+          >
+            Read More
+          </Link>
         </div>
         <div className="service-card">
           <span className="header">Business Investor Visa</span>
@@ -66,7 +78,7 @@ function Services() {
             investments and applications. Propel your business forward in Canada
             with our specialized services.
           </span>
-          <button>Read More</button>
+          <Link className="read-more">Read More</Link>
         </div>
       </div>
     </section>

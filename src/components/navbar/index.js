@@ -69,7 +69,7 @@ function Navbar() {
             <span className="header">
               <b>Email:</b>
             </span>
-            <span>contact@skywhitenorth.ca</span>
+            <span>contact@canadaprcalling.com</span>
           </div>
         </div>
         <div className="contact">
