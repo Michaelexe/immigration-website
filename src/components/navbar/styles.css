@@ -72,6 +72,11 @@
 @media (max-width: 900px) {
   .navbar {
     padding: 0px 15px;
+    height: 65px;
+  }
+
+  .navbar .logo {
+    height: 55px;
   }
 
   .navbar .menu-icon {
