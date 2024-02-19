@@ -68,3 +68,40 @@
 .navbar .contacts .contact .header {
   font-size: 18px;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0px 15px;
+  }
+
+  .navbar .menu-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    fill: currentColor;
+  }
+
+  .menu .menu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 10px;
+  }
+
+  .menu-links {
+    width: 260px;
+    padding: 10px 20px;
+    font-family: Oswald;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .menu-links.active {
+    background-color: #e9ecef;
+    color: var(--maroon);
+    font-weight: 700;
+    font-size: 27px;
+  }
+}

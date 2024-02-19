@@ -2,7 +2,7 @@
   max-width: 1200px;
   width: calc(100% - 20px);
   display: flex;
-  margin: 110px auto 30px auto;
+  margin: 100px auto 30px auto;
   gap: 20px;
 }
 
@@ -62,4 +62,16 @@
 .service-container .quick-links .sub-link .active {
   background-color: var(--blue);
   color: white;
+}
+
+@media (max-width: 900px) {
+  .service-container {
+    flex-direction: column;
+  }
+
+  .service-container .quick-links {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
 }

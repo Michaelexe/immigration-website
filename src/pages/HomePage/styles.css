@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 .home-swiper #slide-1 {
@@ -19,11 +20,11 @@
 }
 
 .home-swiper #slide-2 {
-  background-image: url("https://images.unsplash.com/photo-1548705085-101177834f47?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
 }
 .home-swiper #slide-3 {
-  background-image: url("https://plus.unsplash.com/premium_photo-1697730080024-1ba8d9f8ea53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
 }
 
@@ -35,44 +36,69 @@
   display: block;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-#slide-1 .container {
+.slide .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   z-index: 1;
+  text-shadow: 0px 0px 20px black;
+  text-align: center;
 }
 
-#slide-1 .container h1 {
+.slide .container h1 {
   font-size: 45px;
-  border-bottom: 5px solid var(--red);
-  padding: 5px 40px;
+  animation: fade-in 500ms ease-in;
 }
 
-#slide-1 .container p {
-  width: 24.5ch;
-  font-size: 35px;
-  padding: 5px;
-  font-weight: 500;
-  border-right: 3px solid;
-  animation: blink 1s step-end infinite, type 2.5s steps(25) forwards;
-  overflow: hidden;
-  white-space: nowrap;
+.slide .container p {
+  opacity: 0;
+  font-size: 45px;
+  font-weight: 300;
+  animation-name: fade-in;
+  animation-delay: 500ms;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
 }
 
-@keyframes blink {
-  50% {
-    border-color: transparent;
+.slide .container .buttons {
+  opacity: 0;
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  animation-name: fade-in;
+  animation-delay: 1000ms;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+
+.slide .container .buttons a {
+  padding: 6px 15px;
+  color: white;
+  border: 3px solid white;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 250ms ease-in;
+}
+
+.slide .container .buttons a:hover {
+  background-color: red;
+  scale: 1.05;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-}
-
-@keyframes type {
-  0% {
-    width: 0;
+  to {
+    opacity: 1;
   }
 }
 
@@ -136,51 +162,144 @@
 }
 
 .home-service .grid .service-card {
-  background-color: white;
+  position: relative;
+  background-size: cover;
   box-shadow: 0px 0px 15px darkgray;
-  padding: 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
   border-radius: 5px;
   gap: 10px;
   transition: 250ms all ease-in;
+  color: white;
+  overflow: hidden;
+  min-height: 210px;
+}
+
+.home-service .grid .service-card .hidden-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 250ms ease-in;
+}
+
+.home-service .grid .service-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .home-service .grid .service-card .header {
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 1;
+  transition: all 250ms ease-in;
+}
+
+.home-service .grid .service-card .hidden-content .hidden-header {
   font-size: 20px;
   font-weight: 600;
+  z-index: 1;
 }
 
-.home-service .grid .service-card .description {
+.home-service .grid .service-card .hidden-content .description {
   font-family: Roboto;
+  transition: all 250ms ease-in;
 }
 
-.home-service .grid .service-card .read-more {
+.home-service .grid .service-card .hidden-content .read-more {
   width: fit-content;
   padding: 8px 15px;
   margin-left: auto;
-  background-color: white;
-  color: var(--maroon);
   font-weight: 600;
   font-size: 16px;
   transition: all 150ms ease-in;
   cursor: pointer;
-  border: 2px solid black;
+  border: 2px solid white;
   text-decoration: none;
+  z-index: 1;
+  color: white;
 }
 
 .home-service .grid .service-card:hover {
   scale: 1.04;
 }
 
-.home-service .grid .service-card .read-more:hover {
+.home-service .grid .service-card:hover .header {
+  opacity: 0;
+}
+
+.home-service .grid .service-card:hover .hidden-content {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.home-service .grid .service-card .hidden-content .read-more:hover {
   background-color: var(--maroon);
-  color: white;
 }
 
 @media (max-width: 600px) {
   .home-service .grid {
     grid-template-columns: 1fr;
+  }
+
+  .home-service .grid .service-card .hidden-content {
+    opacity: 1;
+  }
+
+  .home-service .grid .service-card .header {
+    opacity: 0;
+  }
+
+  .home-swiper {
+    height: 90vh;
+  }
+
+  .home-swiper .slide {
+    animation: background-pan 5000ms ease-in-out;
+  }
+
+  @keyframes background-pan {
+    from {
+      background-position: 25%;
+    }
+    to {
+      background-position: 75%;
+    }
+  }
+
+  .home-swiper .slide .container {
+    gap: 10px;
+  }
+
+  .home-swiper .slide h1 {
+    font-size: 35px;
+  }
+  .home-swiper .slide p {
+    font-size: 35px;
+  }
+
+  .home-about .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px max-content;
+    direction: ltr;
+  }
+
+  .home-about .container .image {
+    grid-row: 1 / 1;
   }
 }
