@@ -9,12 +9,12 @@ function Footer() {
         <div className="address column">
           <span className="header">Address:</span>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.755117327866!2d-79.73967062410189!3d43.75718177109732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3bb9a280265d%3A0x94c99e8ded831d02!2sSky%20White%20North%20Immigration%20Consultants!5e0!3m2!1sen!2sca!4v1707786220915!5m2!1sen!2sca"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020.520978949115!2d-79.67507131412668!3d43.659210373789435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f185796909b%3A0xdec90f41703bd2c8!2s6665%20Tomken%20Rd%2C%20Mississauga%2C%20ON%20L5T%202C5!5e0!3m2!1sen!2sca!4v1708382718082!5m2!1sen!2sca"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <span>1090 Peter Robertson Blvd, Brampton, ON L6R 3B3</span>
+          <span>6665 Tomken Rd, Mississauga, ON L5T 2C5</span>
         </div>
         <div className="socials column">
           <span className="header">Socials:</span>
