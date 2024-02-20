@@ -11,8 +11,8 @@ function HomePage() {
       <Intro />
       <About />
       <Services />
-      {/* <Reviews /> */}
-      {/* <FAQ /> */}
+      <Reviews />
+      <FAQ />
     </>
   );
 }

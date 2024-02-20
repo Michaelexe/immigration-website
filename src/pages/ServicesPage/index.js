@@ -5,7 +5,13 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import "./styles.css";
-import { NavLink, Route, Routes, useLocation } from "react-router-dom";
+import {
+  NavLink,
+  Route,
+  Routes,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import WhatIsPNP from "./PNP/WhatIsPNP";
 import Eligibility from "./PNP/Eligibility";
 import HowDoesItOperate from "./PNP/HowDoesItOperate";
@@ -14,6 +20,8 @@ import TCFExamCoaching from "./Francophone/TCFExamCoaching";
 import WhyWorkInCanada from "./Work/WhyWorkInCanada";
 import CategoriesOfWorkPermit from "./Work/CategoriesOfWorkPermit";
 import AboutExpressEntry from "./ExpressEntry/AboutExpressEntry";
+import AboutStudyPermit from "./Study/AboutStudyPermit";
+import AboutBusinessInvestorVisa from "./Business/AboutBusinessInvestorVisa";
 
 function ServicesPage() {
   const location = useLocation();
@@ -103,6 +111,9 @@ function ServicesPage() {
           >
             Study In Canada
           </AccordionSummary>
+          <AccordionDetails className="sub-link">
+            <NavLink to="/services/study/about">About Study Permit</NavLink>
+          </AccordionDetails>
         </Accordion>
         <Accordion
           expanded={currentService === "francophone" || open === "francophone"}
@@ -135,10 +146,19 @@ function ServicesPage() {
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             Business Investor
           </AccordionSummary>
+          <AccordionDetails className="sub-link">
+            <NavLink to="/services/business/about">
+              About Business Investor Visa
+            </NavLink>
+          </AccordionDetails>
         </Accordion>
       </div>
       <div className="content">
         <Routes>
+          <Route
+            path="/"
+            element={<Navigate to="/services/express-entry/about" />}
+          />
           {/* -----------------------Express Entry--------------- */}
           <Route path="/express-entry/about" element={<AboutExpressEntry />} />
           {/* ----------------------Work------------------ */}
@@ -158,6 +178,8 @@ function ServicesPage() {
             path="/pnp/how-does-it-operate"
             element={<HowDoesItOperate />}
           />
+          {/* ------------------Study-------------------- */}
+          <Route path="/study/about" element={<AboutStudyPermit />} />
           {/* ---------------francophone-------------- */}
           <Route
             path="/francophone/francophone-boom"
@@ -166,6 +188,11 @@ function ServicesPage() {
           <Route
             path="/francophone/tcf-exam-coaching"
             element={<TCFExamCoaching />}
+          />
+          {/* -------------Business-------------------- */}
+          <Route
+            path="/business/about"
+            element={<AboutBusinessInvestorVisa />}
           />
         </Routes>
       </div>

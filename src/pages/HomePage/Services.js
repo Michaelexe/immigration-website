@@ -88,7 +88,9 @@ function Services() {
               experience the enriching culture and quality education Canada has
               to offer.
             </span>
-            <Link className="read-more">Read More</Link>
+            <Link className="read-more" to="/services/study/about">
+              Read More
+            </Link>
           </div>
         </div>
         <div
@@ -134,7 +136,9 @@ function Services() {
               investments and applications. Propel your business forward in
               Canada with our specialized services.
             </span>
-            <Link className="read-more">Read More</Link>
+            <Link className="read-more" to="/services/business/about">
+              Read More
+            </Link>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ function Intro() {
           <p>Your Canadian Story Begins Now!</p>
           <div className="buttons">
             <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link>Read More</Link>
+            <Link to="/services/express-entry/about">Read More</Link>
           </div>
         </div>
       </SwiperSlide>
@@ -38,7 +38,7 @@ function Intro() {
           <p>Your Academic Adventure Awaits in Canada.</p>
           <div className="buttons">
             <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link>Read More</Link>
+            <Link to="/services/study/about">Read More</Link>
           </div>
         </div>
       </SwiperSlide>
@@ -48,7 +48,7 @@ function Intro() {
           <p>Work in Canada, Thrive in Canada</p>
           <div className="buttons">
             <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link>Read More</Link>
+            <Link to="/services/work/why-work-in-canada">Read More</Link>
           </div>
         </div>
       </SwiperSlide>

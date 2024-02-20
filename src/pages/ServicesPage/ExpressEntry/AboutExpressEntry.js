@@ -1,6 +1,7 @@
-import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
+import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function AboutExpressEntry() {
   return (
@@ -67,7 +68,7 @@ function AboutExpressEntry() {
       <h2>Frequently Asked Questions (FAQ)</h2>
       <div>
         <Accordion>
-          <AccordionSummary>
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <h4>Express Entry Canada Processing Time</h4>
           </AccordionSummary>
           <AccordionDetails>
@@ -77,7 +78,7 @@ function AboutExpressEntry() {
           </AccordionDetails>
         </Accordion>
         <Accordion>
-          <AccordionSummary>
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <h4>Express Entry Costs</h4>
           </AccordionSummary>
           <AccordionDetails>
@@ -87,7 +88,7 @@ function AboutExpressEntry() {
           </AccordionDetails>
         </Accordion>
         <Accordion>
-          <AccordionSummary>
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <h4>Express Entry vs Provincial Nomination Program (PNP)</h4>
           </AccordionSummary>
           <AccordionDetails>

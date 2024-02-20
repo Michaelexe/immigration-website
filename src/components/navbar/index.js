@@ -33,7 +33,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "active" : null)}
+              className={({ isActive }) => (isActive ? "active-route" : null)}
             >
               Home
             </NavLink>
@@ -41,26 +41,16 @@ function Navbar() {
           <li>
             <NavLink
               to="/services"
-              className={({ isActive }) => (isActive ? "active" : null)}
+              className={({ isActive }) => (isActive ? "active-route" : null)}
             >
               Services
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/Reviews"
-              className={({ isActive }) => (isActive ? "active" : null)}
-            >
-              Reviews
-            </NavLink>
+            <NavLink to="/#Reviews">Reviews</NavLink>
           </li>
           <li>
-            <NavLink
-              to="/FAQ"
-              className={({ isActive }) => (isActive ? "active" : null)}
-            >
-              FAQ
-            </NavLink>
+            <NavLink to="/#FAQ">FAQ</NavLink>
           </li>
         </ul>
         <div className="contacts">
