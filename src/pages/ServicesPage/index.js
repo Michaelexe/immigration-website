@@ -23,6 +23,7 @@ import AboutExpressEntry from "./ExpressEntry/AboutExpressEntry";
 import AboutStudyPermit from "./Study/AboutStudyPermit";
 import AboutBusinessInvestorVisa from "./Business/AboutBusinessInvestorVisa";
 import AlbertaPNP from "./PNP/provinces/AlbertaPNP";
+import BritishColumbiaPNP from "./PNP/provinces/BritishColumbiaPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -107,21 +108,21 @@ function ServicesPage() {
                 <NavLink to="/services/pnp/province/alberta">
                   Alberta PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/manitoba">
-                  Manitoba PNP
-                </NavLink>
                 <NavLink to="/services/pnp/province/british-columbia">
                   British Columbia PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/british-columbia">
+                {/* <NavLink to="/services/pnp/province/manitoba">
+                  Manitoba PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/nova-scotia">
                   Nova Scotia PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/british-columbia">
+                <NavLink to="/services/pnp/province/new-brunswick">
                   New Brunswick PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/british-columbia">
+                <NavLink to="/services/pnp/province/northern-territories">
                   Northern Territories PNP
-                </NavLink>
+                </NavLink> */}
               </AccordionDetails>
             </Accordion>
           </AccordionDetails>
@@ -207,6 +208,10 @@ function ServicesPage() {
             element={<HowDoesItOperate />}
           />
           <Route path="/pnp/province/alberta" element={<AlbertaPNP />} />
+          <Route
+            path="/pnp/province/british-columbia"
+            element={<BritishColumbiaPNP />}
+          />
 
           {/* ------------------Study-------------------- */}
           <Route path="/study/about" element={<AboutStudyPermit />} />
