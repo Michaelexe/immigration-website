@@ -8,7 +8,8 @@ function Reviews() {
     <section className="section home-reviews">
       <div className="container">
         <h1 className="header">
-          Hear It From <span>Our Clients</span>
+          {/* Testimonials: Hear It From <span>Our Clients</span> */}
+          <b>Testimonials</b> & <b>Feedback</b>
         </h1>
         <div className="grid">
           <Swiper
@@ -34,12 +35,10 @@ function Reviews() {
                   wasting my time, money and effort for 4 years.
                 </p>
                 <p>
-                  Then, during my online research, I found an immigration firm
-                  in Canada with the name Sky White North and that was the
-                  turning point for me. Mr. Kawaljit Shangari (the immigration
-                  lawyer) and his team helped me to start afresh, all from
-                  scratch, including the classes for the IELTS and CELPIP to
-                  fetching me a job offer with an LMIA.
+                  Mr. Kawaljit Shangari (the immigration lawyer) and his team
+                  helped me to start afresh, all from scratch, including the
+                  classes for the IELTS and CELPIP to fetching me a job offer
+                  with an LMIA.
                 </p>
                 <p>
                   The entire process was flawless, friendly, and speedy. The
@@ -47,7 +46,7 @@ function Reviews() {
                 </p>
                 <p>
                   I have full trust and faith in them because of my personal
-                  success journey with Sky White North and owe my deepest
+                  success journey with Canada PR Calling and owe my deepest
                   regards for Kalwajit Sir."
                 </p>
               </div>
@@ -56,28 +55,56 @@ function Reviews() {
               <div>
                 <div className="review-card">
                   <h3>
-                    Neha Parwami, <span>New Delhi</span>
-                  </h3>
-                  <p>
-                    "Kawaljit has been a great repertoire of valuable resources-
-                    be it knowledge or connections. He has helped me pave the
-                    way through PNP in such an incredibly orderly manner. His
-                    years of experience is worthy of being commended. Would
-                    trust and recommend his ability to communicate and expertise
-                    in immigration law always."
-                  </p>
-                </div>
-                <div className="review-card">
-                  <h3>
-                    Vandana Thukral, <span>New Delhi</span>
+                    Neha Parwani, <span>Mumbai</span>
                   </h3>
                   <p>
                     "Kawaljit has been a great repertoire of valuable resources-
                     be it knowledge or connections. He has helped me pave the
                     way through PNP in an incredibly orderly manner. His years
-                    of experience is worthy of being commended"
+                    of experience is worthy of being commended. "
                   </p>
                 </div>
+                <div className="review-card">
+                  <h3>
+                    Rohan, <span>Post Graduate Work Permit</span>{" "}
+                  </h3>
+                  <p>
+                    "I got my PGWP application approval through Canada PR
+                    Calling in a week. I am glad that my application was
+                    processed within time and got a timely response for my file.
+                    Thanks to the team for their efforts."
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="review-card">
+                <h3>
+                  Vandana Thukral, <span>New Delhi</span>
+                </h3>
+                <p>
+                  "The most challenging part our life's journey comes heads on
+                  at us at the decision of immigration and associated
+                  paraphernalia.
+                </p>
+                <p>
+                  To be frank, I had numerous inquiries ranging from identifying
+                  the appropriate immigration pathway for my case and managing a
+                  high CRS score to successfully navigating the Express Entry
+                  system. Additionally, there were challenges related to
+                  learning French proficiently and excelling in it, followed by
+                  securing a job.
+                </p>
+                <p>
+                  Throughout this journey, Canada PR Calling provided invaluable
+                  advice at every step, addressing my specific needs.
+                </p>
+                <p>
+                  Although I started my immigration journey at an advanced age
+                  of 37 but at this time after landing in Canada, I can validate
+                  that the right guidance holds great value despite all the
+                  insurmountable initial challenges!"
+                </p>
               </div>
             </SwiperSlide>
           </Swiper>

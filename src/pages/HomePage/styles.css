@@ -274,7 +274,7 @@
 .home-reviews .container .header span {
   font-weight: 600;
   font-size: 40px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .home-reviews .grid {
@@ -347,7 +347,7 @@
   background-color: #e9ecef;
   background-image: url("../../assets/map.png");
   background-size: cover;
-  background-blend-mode: soft-light;
+  background-blend-mode: color-burn;
 }
 
 .home-faq .container {
@@ -378,7 +378,7 @@
   }
 
   .home-swiper .slide {
-    animation: background-pan 5000ms ease-in-out;
+    animation: background-pan 4000ms ease-in-out;
   }
 
   @keyframes background-pan {

@@ -78,6 +78,23 @@ function FAQ() {
             </p>
           </AccordionDetails>
         </Accordion>
+        <Accordion className="faq-accordion">
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+            <h3>
+              How do you ensure ethical standards in your immigration services?
+            </h3>
+          </AccordionSummary>
+          <AccordionDetails>
+            <p>
+              We uphold the highest ethical standards in all aspects of our
+              work. Our team, led by RCIC lawyer Kawaljit Shangari, operates
+              with integrity, transparency, and professionalism at every step of
+              the process. We strictly adhere to the rules and regulations set
+              forth by the Immigration Consultants of Canada Regulatory Council
+              (ICCRC) to ensure the ethical conduct of our services.
+            </p>
+          </AccordionDetails>
+        </Accordion>
       </div>
     </section>
   );

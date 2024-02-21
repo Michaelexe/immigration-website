@@ -5,11 +5,10 @@ function AboutStudyPermit() {
     <>
       <h1>Study In Canada</h1>
       <p>
-        Are you dreaming of studying in Canada and eventually becoming a
-        permanent resident? At Canada PR Calling, we're here to turn your dream
-        into a reality with our Study to Immigrate in Canada Program!
+        At Canada PR Calling, we're here to turn your dream into a reality with
+        our Study to Immigrate in Canada Program!
       </p>
-      <h2>how does the process of Study to PR work?</h2>
+      <h2>Procedure:</h2>
       <ol>
         <li>
           <b>Choose Your Program: </b>Select a study program that suits your
@@ -22,8 +21,7 @@ function AboutStudyPermit() {
         </li>
         <li>
           <b>Graduate and Gain Experience:</b> After successfully completing
-          your studies and gaining some work experience, our expert team will
-          handle your application for Permanent Residency right here in Canada.
+          your studies and gaining some work experience.
         </li>
       </ol>
       <p>

@@ -22,6 +22,7 @@ import CategoriesOfWorkPermit from "./Work/CategoriesOfWorkPermit";
 import AboutExpressEntry from "./ExpressEntry/AboutExpressEntry";
 import AboutStudyPermit from "./Study/AboutStudyPermit";
 import AboutBusinessInvestorVisa from "./Business/AboutBusinessInvestorVisa";
+import AlbertaPNP from "./PNP/provinces/AlbertaPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -95,7 +96,34 @@ function ServicesPage() {
             <NavLink to="/services/pnp/how-does-it-operate">
               How does it operate
             </NavLink>
-            <NavLink to="/services/pnp/alberta-pnp">Alberta PNP</NavLink>
+            <Accordion className="provinces">
+              <AccordionSummary
+                className="provinces-header"
+                expandIcon={<ExpandMoreIcon />}
+              >
+                Provinces
+              </AccordionSummary>
+              <AccordionDetails className="provinces-links">
+                <NavLink to="/services/pnp/province/alberta">
+                  Alberta PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/manitoba">
+                  Manitoba PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/british-columbia">
+                  British Columbia PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/british-columbia">
+                  Nova Scotia PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/british-columbia">
+                  New Brunswick PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/british-columbia">
+                  Northern Territories PNP
+                </NavLink>
+              </AccordionDetails>
+            </Accordion>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -178,6 +206,8 @@ function ServicesPage() {
             path="/pnp/how-does-it-operate"
             element={<HowDoesItOperate />}
           />
+          <Route path="/pnp/province/alberta" element={<AlbertaPNP />} />
+
           {/* ------------------Study-------------------- */}
           <Route path="/study/about" element={<AboutStudyPermit />} />
           {/* ---------------francophone-------------- */}

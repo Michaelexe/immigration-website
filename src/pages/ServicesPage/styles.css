@@ -64,6 +64,29 @@
   color: white;
 }
 
+.service-container .quick-links .provinces {
+  box-shadow: none;
+}
+
+.service-container .quick-links .provinces-header {
+  padding-left: 20px;
+  min-height: fit-content;
+}
+
+.service-container .quick-links .provinces-header .MuiAccordionSummary-content {
+  margin: 5px 0px !important;
+}
+
+.service-container .quick-links .provinces-links {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.service-container .quick-links .provinces-links a {
+  padding-left: 40px;
+}
+
 @media (max-width: 900px) {
   .service-container {
     flex-direction: column;

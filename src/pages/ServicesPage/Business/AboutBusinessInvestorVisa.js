@@ -38,26 +38,26 @@ function AboutBusinessInvestorVisa() {
       </p>
       <ul>
         <li>
-          <b>Entrepreneur Immigration</b>
+          <b>Entrepreneur Immigration: </b>
           The Federal government and Provinces offer Entrepreneur Immigration
           programs tailored for individuals with business management experience
           and substantial net worth. These programs acknowledge the potential
           for building successful companies through these pathways.
         </li>
         <li>
-          <b>Investor Immigration</b>
+          <b>Investor Immigration: </b>
           Individuals with higher net worth can make capital investments in the
           Canadian economy under these Immigration programs.
         </li>
         <li>
-          <b>Self-Employed Immigration</b>
+          <b>Self-Employed Immigration: </b>
           Canada immigration welcomes self-employed professionals with a
           Permanent Resident status. These individuals must have relevant
           experience in cultural activities or athletics within the last 5 years
           before applying.
         </li>
         <li>
-          <b>Start-up Visa Program</b>
+          <b>Start-up Visa Program: </b>
           This program grants Permanent Resident status and work permits to
           skilled immigrant entrepreneurs aiming to establish innovative
           businesses in Canada.
@@ -65,13 +65,13 @@ function AboutBusinessInvestorVisa() {
         <li>
           <b>
             Provincial Nomination Programs for investor visa and Business
-            Immigration
+            Immigration:{" "}
           </b>
           Provinces across Canada offer multiple streams under their PNP
           programs for candidates with entrepreneurial or management experience.
         </li>
         <li>
-          <b>Business Visitor Visa</b>
+          <b>Business Visitor Visa: </b>
           This visa category caters to individuals temporarily traveling to
           Canada for conducting business. It allows them to engage in
           international business activities by creating, investing, and
@@ -113,8 +113,8 @@ function AboutBusinessInvestorVisa() {
       </div>
       <h2>How can we assist you?</h2>
       <p>
-        At Sky White North Immigration Inc., our team brings hands-on corporate
-        experience from diverse industries.{" "}
+        At Canada PR Calling, our team brings hands-on corporate experience from
+        diverse industries.{" "}
       </p>
       <p>
         Our consultants have honed a competitive edge through extensive business
