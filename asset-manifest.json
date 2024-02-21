@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/immigration-website/static/css/main.04a4ae69.css",
-    "main.js": "/immigration-website/static/js/main.de52e2d1.js",
+    "main.css": "/immigration-website/static/css/main.370b8d07.css",
+    "main.js": "/immigration-website/static/js/main.4c34c006.js",
     "static/media/logo.png": "/immigration-website/static/media/logo.3ce156db24caa382be05.png",
     "static/media/map.png": "/immigration-website/static/media/map.6e488c8a808980cb68d4.png",
     "static/media/rcic.png": "/immigration-website/static/media/rcic.1987a54120abc4dd59a7.png",
     "index.html": "/immigration-website/index.html",
-    "main.04a4ae69.css.map": "/immigration-website/static/css/main.04a4ae69.css.map",
-    "main.de52e2d1.js.map": "/immigration-website/static/js/main.de52e2d1.js.map"
+    "main.370b8d07.css.map": "/immigration-website/static/css/main.370b8d07.css.map",
+    "main.4c34c006.js.map": "/immigration-website/static/js/main.4c34c006.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a4ae69.css",
-    "static/js/main.de52e2d1.js"
+    "static/css/main.370b8d07.css",
+    "static/js/main.4c34c006.js"
   ]
 }
