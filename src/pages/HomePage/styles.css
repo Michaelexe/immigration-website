@@ -76,7 +76,9 @@
   animation-fill-mode: forwards;
 }
 
-.slide .container .buttons a {
+.slide .container .buttons .button {
+  font-family: Oswald;
+  background-color: transparent;
   padding: 6px 15px;
   color: white;
   border: 3px solid white;
@@ -87,7 +89,7 @@
   transition: all 250ms ease-in;
 }
 
-.slide .container .buttons a:hover {
+.slide .container .buttons button:hover {
   background-color: red;
   scale: 1.05;
 }
@@ -378,6 +380,7 @@
   }
 
   .home-swiper .slide {
+    background-position: 75%;
     animation: background-pan 4000ms ease-in-out;
   }
 

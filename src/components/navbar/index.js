@@ -62,7 +62,11 @@ function Navbar() {
               <span className="header">
                 <b>Email:</b>
               </span>
-              <span>contact@canadaprcalling.com</span>
+              <span>
+                <a href="mailto:contact@canadaprcalling.com">
+                  contact@canadaprcalling.com
+                </a>
+              </span>
             </div>
           </div>
           <div className="contact">
@@ -73,7 +77,7 @@ function Navbar() {
               <span className="subtext">
                 <b>Phone:</b>
               </span>
-              <span>+1 877-693-1119</span>
+              <span>+1 365-996-1100</span>
             </div>
           </div>
         </div>

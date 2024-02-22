@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import { PopupButton } from "react-calendly";
 
 function Intro() {
   return (
@@ -27,8 +28,15 @@ function Intro() {
           <h1>Connecting Dreams With Reality</h1>
           <p>Your Canadian Story Begins Now!</p>
           <div className="buttons">
-            <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link to="/services/express-entry/about">Read More</Link>
+            <PopupButton
+              url="https://calendly.com/canadaprcalling"
+              rootElement={document.getElementById("root")}
+              text="Book Now"
+              className="button"
+            />
+            <Link className="button" to="/services/express-entry/about">
+              Read More
+            </Link>
           </div>
         </div>
       </SwiperSlide>
@@ -37,8 +45,15 @@ function Intro() {
           <h1>Unlock Knowledge, Ignite Potential</h1>
           <p>Your Academic Adventure Awaits in Canada.</p>
           <div className="buttons">
-            <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link to="/services/study/about">Read More</Link>
+            <PopupButton
+              url="https://calendly.com/canadaprcalling"
+              rootElement={document.getElementById("root")}
+              text="Book Now"
+              className="button"
+            />
+            <Link className="button" to="/services/study/about">
+              Read More
+            </Link>
           </div>
         </div>
       </SwiperSlide>
@@ -47,8 +62,15 @@ function Intro() {
           <h1>Empowering Careers, Enriching Lives</h1>
           <p>Work in Canada, Thrive in Canada</p>
           <div className="buttons">
-            <a href="mailto:canadaprcalling.com">Email Now</a>
-            <Link to="/services/work/why-work-in-canada">Read More</Link>
+            <PopupButton
+              url="https://calendly.com/canadaprcalling"
+              rootElement={document.getElementById("root")}
+              text="Book Now"
+              className="button"
+            />
+            <Link className="button" to="/services/work/why-work-in-canada">
+              Read More
+            </Link>
           </div>
         </div>
       </SwiperSlide>

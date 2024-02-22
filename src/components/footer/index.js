@@ -61,7 +61,7 @@ function Footer() {
           </div>
           <div>
             <span className="header">Phone:</span>
-            <span>+1 877-693-1119</span>
+            <span>+1 365-996-1100</span>
           </div>
         </div>
       </div>
