@@ -381,7 +381,7 @@
 
   .home-swiper .slide {
     background-position: 75%;
-    animation: background-pan 4000ms ease-in-out;
+    animation: background-pan 4280ms ease-in-out infinite;
   }
 
   @keyframes background-pan {

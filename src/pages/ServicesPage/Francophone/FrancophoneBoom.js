@@ -5,70 +5,59 @@ function FrancophoneBoom() {
     <>
       <h2>Francophone Boom</h2>
       <p>
-        As an immigration partner, we cater to an international audience and
-        frequently interact with individuals aspiring to attain Canadian
-        Permanent Residency (PR) by harnessing the power of French language
-        proficiency.
+        Imagine a PR aspirant, who is single, less than the age of 30, has their
+        education verified as Masters (no two or more degrees) gets CLB 10 in
+        their language test (with one language) and has more than 3 years of
+        work experience. They will have a CRS of 481.
       </p>
       <p>
-        It gets difficult to begin to understand where do we start, beginning
-        French learning is daunting, and attaining a B2/C1 level a mammoth task.
-        Not anymore, when we at Canadanprcalling facilitate the French-Language
-        Proficiency (TEF/TCF) exam based learning solutions, it evidently
-        becomes Your Route to Canadian PR.{" "}
+        As the ongoing trend in February 2024 exhibits, the scores of CRS
+        cut-off are around 535, (as per Feb 13th, 2024 draw). As implicit,
+        people able to cut it without a Canadian Education or Work Experience or
+        French or English as a second language. Thus apart from the criteria
+        listed above, the Canadian PR will be even more competitive.
       </p>
       <p>
-        In brief, we provide comprehensive guidance on enhancing your language
-        skills and leveraging them for a successful immigration application.
-      </p>
-      <p>
-        Many professionals seeking relocation to Canada from their home
-        countries or other places of residence may find that acquiring
-        additional language skills, regardless of age, academic background, or
-        work experience, can be beneficial.
-      </p>
-      <p>
-        With this in mind, we have designed a curriculum to introduce
-        international students, visitors, temporary foreign workers, and other
-        prospective immigrants to the benefits and resources for learning
-        French:
-      </p>
-      <p>
-        Because a prospective immigrant who is single, less than the age of 30,
-        has their education verified as Masters (no two or more degrees) gets
-        CLB 10 in their language test (with one language) and has more than 3
-        years of work experience will have a CRS of 481. In February 2024, the
-        current trends are around 535, (Feb 13th, 2024 draw) which without a
-        Canadian education or work experience or French or English as a second
-        language apart from the criteria listed above, is impossible to achieve.
-      </p>
-      <p>
-        Therefore, learning French provides a leverage to the CRS score as it
+        Therefore, learning French provides an advantage to the CRS score as it
         provides at least 62/74 points to the total of 481 making it 543/555.
       </p>
+      <p>Let's delve into the stories of two prospective candidates:</p>
+      <ol>
+        <li>
+          Meet Twinkle, a young professional eager to pursue her career in
+          Canada. Despite the initial apprehension of beginning her French
+          language journey, she found solace in our tailored TCF exam
+          preparation program. With our comprehensive guidance and abundant
+          resources, she navigated through the intricacies of the French
+          language exam, she got a score of 539, inching closer to her Canadian
+          PR dream.
+        </li>
+        <li>
+          Meet Mrityunjay, a seasoned professional seeking new opportunities in
+          Canada. With 4 years of work experience under his belt, and a
+          Master's, he understood the importance of adding French proficiency to
+          his skill set. Through our strategic approach to TCF exam preparation,
+          Mrityunjay honed his language skills. Eventually he unlocked the
+          Provincial Nominations at Ontario Francophone category based draw,
+          paving the way for a smoother immigration process.
+        </li>
+      </ol>
       <p>
-        We provide TEF and TCF Exam Preparation: These tips and strategies help
-        navigate the exam preparation effectively. Highlighting resources and
-        practice materials to excel in language proficiency tests is the most
-        imperative in the preparation process.
+        In these success stories, the transformative power of French language
+        proficiency is realised. Our curated curriculum and expert guidance
+        equip individuals like Twinkle and Mrityunjay, with the knowledge and
+        strategies needed to excel in language proficiency tests, ultimately
+        enhancing their CRS scores and positioning them as desirable candidates
+        for Canadian immigration.
       </p>
       <p>
-        Moreover, French Proficiency for Provincial Nominee Programs (PNPs) is a
-        boon as it pays to explore the benefits of French-language skills for
-        PNPs. We help you identify opportunities to secure provincial
-        nominations with strong French-language abilities.
-      </p>
-      <p>
-        In fact, we have a good number of success stories and testimonials. We
-        showcase many real-life examples of individuals who have achieved
-        Canadian PR through French-language proficiency. You can draw insights
-        from their experiences to apply to your own immigration journey.
-      </p>
-      <p>
-        Believe it when we say that you will be equipped with the knowledge and
-        strategies to leverage French-language proficiency as a valuable asset
-        in the pursuit of Canadian PR calling! Don't miss this opportunity to
-        take a significant step towards realizing your immigration goals.
+        We celebrate the countless success stories and testimonials from
+        individuals who have achieved Canadian PR through our French language
+        programs. Their journeys serve as beacons of hope and inspiration for
+        those embarking on their own immigration quests. Remember, you're not
+        just mastering a language - you're crafting your destiny. Don't hesitate
+        to take the leap and join us in realizing your immigration goals. Your
+        Canadian PR dream awaits - let's make it a reality.
       </p>
     </>
   );

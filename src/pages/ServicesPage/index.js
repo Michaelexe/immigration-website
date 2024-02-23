@@ -24,6 +24,10 @@ import AboutStudyPermit from "./Study/AboutStudyPermit";
 import AboutBusinessInvestorVisa from "./Business/AboutBusinessInvestorVisa";
 import AlbertaPNP from "./PNP/provinces/AlbertaPNP";
 import BritishColumbiaPNP from "./PNP/provinces/BritishColumbiaPNP";
+import TCFAndTEF from "./Francophone/TCFAndTEF";
+import NovaSoctiaPNP from "./PNP/provinces/NovaSoctiaPNP";
+import OntarioPNP from "./PNP/provinces/OntarioPNP";
+import NewBrunswickPNP from "./PNP/provinces/NewBrunswickPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -111,14 +115,17 @@ function ServicesPage() {
                 <NavLink to="/services/pnp/province/british-columbia">
                   British Columbia PNP
                 </NavLink>
-                {/* <NavLink to="/services/pnp/province/manitoba">
-                  Manitoba PNP
-                </NavLink>
                 <NavLink to="/services/pnp/province/nova-scotia">
                   Nova Scotia PNP
                 </NavLink>
+                <NavLink to="/services/pnp/province/ontario">
+                  Ontario PNP
+                </NavLink>
                 <NavLink to="/services/pnp/province/new-brunswick">
                   New Brunswick PNP
+                </NavLink>
+                {/* <NavLink to="/services/pnp/province/manitoba">
+                  Manitoba PNP
                 </NavLink>
                 <NavLink to="/services/pnp/province/northern-territories">
                   Northern Territories PNP
@@ -160,6 +167,9 @@ function ServicesPage() {
           <AccordionDetails className="sub-link">
             <NavLink to="/services/francophone/francophone-boom">
               Francophone Boom
+            </NavLink>
+            <NavLink to="/services/francophone/tcf-and-tef">
+              TCF And TEF
             </NavLink>
             <NavLink to="/services/francophone/tcf-exam-coaching">
               TCF Exam Coaching
@@ -212,6 +222,12 @@ function ServicesPage() {
             path="/pnp/province/british-columbia"
             element={<BritishColumbiaPNP />}
           />
+          <Route path="/pnp/province/nova-scotia" element={<NovaSoctiaPNP />} />
+          <Route path="/pnp/province/ontario" element={<OntarioPNP />} />
+          <Route
+            path="/pnp/province/new-brunswick"
+            element={<NewBrunswickPNP />}
+          />
 
           {/* ------------------Study-------------------- */}
           <Route path="/study/about" element={<AboutStudyPermit />} />
@@ -220,6 +236,7 @@ function ServicesPage() {
             path="/francophone/francophone-boom"
             element={<FrancophoneBoom />}
           />
+          <Route path="/francophone/tcf-and-tef" element={<TCFAndTEF />} />
           <Route
             path="/francophone/tcf-exam-coaching"
             element={<TCFExamCoaching />}
