@@ -28,6 +28,8 @@ import TCFAndTEF from "./Francophone/TCFAndTEF";
 import NovaSoctiaPNP from "./PNP/provinces/NovaSoctiaPNP";
 import OntarioPNP from "./PNP/provinces/OntarioPNP";
 import NewBrunswickPNP from "./PNP/provinces/NewBrunswickPNP";
+import SaskatchewanPNP from "./PNP/provinces/SaskatchewanPNP";
+import PrinceEdwardPNP from "./PNP/provinces/PrinceEdwardPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -124,12 +126,12 @@ function ServicesPage() {
                 <NavLink to="/services/pnp/province/new-brunswick">
                   New Brunswick PNP
                 </NavLink>
-                {/* <NavLink to="/services/pnp/province/manitoba">
-                  Manitoba PNP
+                <NavLink to="/services/pnp/province/saskatchewan">
+                  Saskatchewan PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/northern-territories">
-                  Northern Territories PNP
-                </NavLink> */}
+                <NavLink to="/services/pnp/province/prince-edward">
+                  Prince Edward Island PNP
+                </NavLink>
               </AccordionDetails>
             </Accordion>
           </AccordionDetails>
@@ -227,6 +229,14 @@ function ServicesPage() {
           <Route
             path="/pnp/province/new-brunswick"
             element={<NewBrunswickPNP />}
+          />
+          <Route
+            path="/pnp/province/saskatchewan"
+            element={<SaskatchewanPNP />}
+          />
+          <Route
+            path="/pnp/province/prince-edward"
+            element={<PrinceEdwardPNP />}
           />
 
           {/* ------------------Study-------------------- */}
