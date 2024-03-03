@@ -87,6 +87,11 @@
   padding-left: 40px;
 }
 
+.service-container .content .MuiAccordionDetails-root {
+  display: grid;
+  gap: 10px;
+}
+
 @media (max-width: 900px) {
   .service-container {
     flex-direction: column;

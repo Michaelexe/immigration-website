@@ -89,7 +89,7 @@
   transition: all 250ms ease-in;
 }
 
-.slide .container .buttons button:hover {
+.slide .container .buttons .button:hover {
   background-color: red;
   scale: 1.05;
 }

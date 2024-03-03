@@ -30,6 +30,8 @@ import OntarioPNP from "./PNP/provinces/OntarioPNP";
 import NewBrunswickPNP from "./PNP/provinces/NewBrunswickPNP";
 import SaskatchewanPNP from "./PNP/provinces/SaskatchewanPNP";
 import PrinceEdwardPNP from "./PNP/provinces/PrinceEdwardPNP";
+import YukonPNP from "./PNP/provinces/YukonPNP";
+import ManitobaPNP from "./PNP/provinces/ManitobaPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -131,6 +133,10 @@ function ServicesPage() {
                 </NavLink>
                 <NavLink to="/services/pnp/province/prince-edward">
                   Prince Edward Island PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/yukon">Yukon PNP</NavLink>
+                <NavLink to="/services/pnp/province/manitoba">
+                  Manitoba PNP
                 </NavLink>
               </AccordionDetails>
             </Accordion>
@@ -238,6 +244,8 @@ function ServicesPage() {
             path="/pnp/province/prince-edward"
             element={<PrinceEdwardPNP />}
           />
+          <Route path="/pnp/province/yukon" element={<YukonPNP />} />
+          <Route path="/pnp/province/manitoba" element={<ManitobaPNP />} />
 
           {/* ------------------Study-------------------- */}
           <Route path="/study/about" element={<AboutStudyPermit />} />
