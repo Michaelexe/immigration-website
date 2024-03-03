@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { animate, useInView, stagger } from "framer-motion";
 
 function FAQ() {
+  const ref = useRef();
+  const inView = useInView(ref, {
+    once: true,
+    margin: "0px 0px -200px 0px",
+  });
+
+  useEffect(() => {
+    if (inView) {
+      animate(
+        ".faq-accordion",
+        { opacity: [0, 1], transform: "translateY(0)" },
+        {
+          delay: stagger(0.1),
+          type: "spring",
+          duration: 0.5,
+        }
+      );
+    }
+  }, [inView]);
+
   return (
     <section className="section home-faq" id="FAQ">
       <h1>Frequently Asked Questions</h1>
-      <div className="container">
+      <div className="container" ref={ref}>
         <Accordion className="faq-accordion">
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <h3>Why should I hire an immigration consultant?</h3>

@@ -175,10 +175,12 @@
   justify-content: space-around;
   border-radius: 5px;
   gap: 10px;
-  transition: 250ms all ease-in;
+  transition: 250ms scale ease-in;
   color: white;
   overflow: hidden;
   min-height: 210px;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .home-service .grid .service-card .hidden-content {
@@ -360,6 +362,8 @@
 
 .home-faq .container .faq-accordion {
   margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .home-faq .container .faq-accordion p {

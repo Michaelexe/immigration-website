@@ -32,6 +32,7 @@ import SaskatchewanPNP from "./PNP/provinces/SaskatchewanPNP";
 import PrinceEdwardPNP from "./PNP/provinces/PrinceEdwardPNP";
 import YukonPNP from "./PNP/provinces/YukonPNP";
 import ManitobaPNP from "./PNP/provinces/ManitobaPNP";
+import NewfoundlandPNP from "./PNP/provinces/NewfoundlandPNP";
 
 function ServicesPage() {
   const location = useLocation();
@@ -119,25 +120,28 @@ function ServicesPage() {
                 <NavLink to="/services/pnp/province/british-columbia">
                   British Columbia PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/nova-scotia">
-                  Nova Scotia PNP
-                </NavLink>
-                <NavLink to="/services/pnp/province/ontario">
-                  Ontario PNP
+                <NavLink to="/services/pnp/province/manitoba">
+                  Manitoba PNP
                 </NavLink>
                 <NavLink to="/services/pnp/province/new-brunswick">
                   New Brunswick PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/saskatchewan">
-                  Saskatchewan PNP
+                <NavLink to="/services/pnp/province/newfoundland-and-labrador">
+                  Newfoundland and Labrador PNP
+                </NavLink>
+                <NavLink to="/services/pnp/province/nova-scotia">
+                  Nova Scotia PNP``
+                </NavLink>
+                <NavLink to="/services/pnp/province/ontario">
+                  Ontario PNP
                 </NavLink>
                 <NavLink to="/services/pnp/province/prince-edward">
                   Prince Edward Island PNP
                 </NavLink>
-                <NavLink to="/services/pnp/province/yukon">Yukon PNP</NavLink>
-                <NavLink to="/services/pnp/province/manitoba">
-                  Manitoba PNP
+                <NavLink to="/services/pnp/province/saskatchewan">
+                  Saskatchewan PNP
                 </NavLink>
+                <NavLink to="/services/pnp/province/yukon">Yukon PNP</NavLink>
               </AccordionDetails>
             </Accordion>
           </AccordionDetails>
@@ -246,6 +250,10 @@ function ServicesPage() {
           />
           <Route path="/pnp/province/yukon" element={<YukonPNP />} />
           <Route path="/pnp/province/manitoba" element={<ManitobaPNP />} />
+          <Route
+            path="/pnp/province/newfoundland-and-labrador"
+            element={<NewfoundlandPNP />}
+          />
 
           {/* ------------------Study-------------------- */}
           <Route path="/study/about" element={<AboutStudyPermit />} />

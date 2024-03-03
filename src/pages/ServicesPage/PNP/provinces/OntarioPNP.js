@@ -41,9 +41,9 @@ function OntarioPNP() {
         <li>Employer Job Offer Category</li>
         <li>Business Category</li>
       </ul>
-      <h2>How Can CanadaPRCalling Assist You?</h2>
+      <h2>How Can Canada PR Calling Assist You?</h2>
       <p>
-        Our team at Canadaprcalling has aided numerous individuals in their
+        Our team at Canada PR Calling has aided numerous individuals in their
         Canada PR applications. With the guidance of our RCIC lawyer, Kawaljit
         Shangari, we will navigate you through your application process and
         identify the right pathway to Canada. Leveraging our extensive

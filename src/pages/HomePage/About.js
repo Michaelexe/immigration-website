@@ -1,11 +1,29 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import "./styles.css";
 
 function About() {
   return (
     <section className="section home-about">
-      <div className="container">
+      <motion.div
+        className="container"
+        initial={{
+          opacity: 0,
+          y: 40,
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+        }}
+        viewport={{
+          once: true,
+          amount: 0.5,
+        }}
+        transition={{
+          duration: 1,
+        }}
+      >
         <div className="text">
           <h1>About Us</h1>
           <p>
@@ -28,7 +46,7 @@ function About() {
           </p>
         </div>
         <div className="image"></div>
-      </div>
+      </motion.div>
     </section>
   );
 }

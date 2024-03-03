@@ -1,13 +1,34 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import { animate, useInView, stagger } from "framer-motion";
 
 import "./styles.css";
-import { Link } from "react-router-dom";
 
 function Services() {
+  const ref = useRef();
+  const inView = useInView(ref, {
+    once: true,
+    margin: "0px 0px -200px 0px",
+  });
+
+  useEffect(() => {
+    if (inView) {
+      animate(
+        ".service-card",
+        { opacity: 1, transform: "translateY(0)" },
+        {
+          delay: stagger(0.2),
+          type: "spring",
+          duration: 0.5,
+        }
+      );
+    }
+  }, [inView]);
+
   return (
     <section className="section home-service">
       <h1>Our Immigration Services</h1>
-      <div className="grid">
+      <div className="grid" ref={ref}>
         <div
           className="service-card"
           style={{
