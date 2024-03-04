@@ -5,7 +5,7 @@ import rcicPNG from "../../assets/rcic.png";
 
 function Reviews() {
   return (
-    <section className="section home-reviews">
+    <section className="section home-reviews" id="reviews" name="reviews">
       <div className="container">
         <h1 className="header">
           {/* Testimonials: Hear It From <span>Our Clients</span> */}

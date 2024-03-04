@@ -47,10 +47,10 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <a href="/#Reviews">Reviews</a>
+            <a href="/#reviews">Reviews</a>
           </li>
           <li>
-            <a href="/#FAQ">FAQ</a>
+            <a href="/#faq">FAQ</a>
           </li>
         </ul>
         <div className="contacts">

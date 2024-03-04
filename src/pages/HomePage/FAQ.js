@@ -27,7 +27,7 @@ function FAQ() {
   }, [inView]);
 
   return (
-    <section className="section home-faq" id="FAQ">
+    <section className="section home-faq" id="faq" name="faq">
       <h1>Frequently Asked Questions</h1>
       <div className="container" ref={ref}>
         <Accordion className="faq-accordion">
