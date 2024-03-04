@@ -47,10 +47,10 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/#Reviews">Reviews</NavLink>
+            <a href="/#Reviews">Reviews</a>
           </li>
           <li>
-            <NavLink to="/#FAQ">FAQ</NavLink>
+            <a href="/#FAQ">FAQ</a>
           </li>
         </ul>
         <div className="contacts">
@@ -116,12 +116,12 @@ function Navbar() {
             <NavLink className="menu-links" to="/services">
               Services
             </NavLink>
-            <NavLink className="menu-links" to="/reviews">
+            <a className="menu-links" href="/#reviews">
               Reviews
-            </NavLink>
-            <NavLink className="menu-links" to="/faq">
+            </a>
+            <a className="menu-links" href="/#faq">
               FAQ
-            </NavLink>
+            </a>
           </div>
         </Drawer>
       </>
