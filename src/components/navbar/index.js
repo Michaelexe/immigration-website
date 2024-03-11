@@ -77,7 +77,7 @@ function Navbar() {
               <span className="subtext">
                 <b>Phone:</b>
               </span>
-              <span>+1 365-996-1100</span>
+              <span>+1 905-904-0560</span>
             </div>
           </div>
         </div>

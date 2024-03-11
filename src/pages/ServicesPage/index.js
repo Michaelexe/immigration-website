@@ -130,7 +130,7 @@ function ServicesPage() {
                   Newfoundland and Labrador PNP
                 </NavLink>
                 <NavLink to="/services/pnp/province/nova-scotia">
-                  Nova Scotia PNP``
+                  Nova Scotia PNP
                 </NavLink>
                 <NavLink to="/services/pnp/province/ontario">
                   Ontario PNP
