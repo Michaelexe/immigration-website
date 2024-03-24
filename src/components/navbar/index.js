@@ -4,6 +4,7 @@ import { NavLink, useLocation } from "react-router-dom";
 
 import "./styles.css";
 import logoPNG from "../../assets/logo.png";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const navbarRef = useRef();
@@ -47,10 +48,10 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <a href="/#reviews">Reviews</a>
+            <HashLink to="/#reviews">Reviews</HashLink>
           </li>
           <li>
-            <a href="/#faq">FAQ</a>
+            <HashLink to="/#faq">FAQ</HashLink>
           </li>
         </ul>
         <div className="contacts">
@@ -116,12 +117,12 @@ function Navbar() {
             <NavLink className="menu-links" to="/services">
               Services
             </NavLink>
-            <a className="menu-links" href="/#reviews">
+            <HashLink className="menu-links" to="/#reviews">
               Reviews
-            </a>
-            <a className="menu-links" href="/#faq">
+            </HashLink>
+            <HashLink className="menu-links" to="/#faq">
               FAQ
-            </a>
+            </HashLink>
           </div>
         </Drawer>
       </>

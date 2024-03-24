@@ -9,7 +9,7 @@ import ScrollToTop from "./components/scrollToTop";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -17,7 +17,7 @@ function App() {
           <Route path="/services/*" element={<ServicesPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

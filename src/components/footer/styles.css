@@ -49,6 +49,8 @@
   align-items: center;
   gap: 5px;
   transition: all 150ms ease-in;
+  color: white;
+  text-decoration: none;
 }
 
 .footer .container .socials .social svg {
@@ -80,6 +82,6 @@
   }
 
   .footer .container .contact {
-    gap: 20px;
+    justify-content: space-between;
   }
 }
