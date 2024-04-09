@@ -29,7 +29,7 @@ function Intro() {
           <p>Your Canadian Story Begins Now!</p>
           <div className="buttons">
             <PopupButton
-              url="https://calendly.com/canadaprcalling"
+              url="https://calendly.com/shangjolly"
               rootElement={document.getElementById("root")}
               text="Book Now"
               className="button"
@@ -46,7 +46,7 @@ function Intro() {
           <p>Your Academic Adventure Awaits in Canada.</p>
           <div className="buttons">
             <PopupButton
-              url="https://calendly.com/canadaprcalling"
+              url="https://calendly.com/shangjolly"
               rootElement={document.getElementById("root")}
               text="Book Now"
               className="button"
@@ -63,7 +63,7 @@ function Intro() {
           <p>Work in Canada, Thrive in Canada</p>
           <div className="buttons">
             <PopupButton
-              url="https://calendly.com/canadaprcalling"
+              url="https://calendly.com/shangjolly"
               rootElement={document.getElementById("root")}
               text="Book Now"
               className="button"

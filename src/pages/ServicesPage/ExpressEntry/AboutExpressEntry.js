@@ -101,7 +101,7 @@ function AboutExpressEntry() {
       </div>
       <h2>How can we help you?</h2>
       <p>
-        At Canada PR Calling, our team of Regulated Canadian Immigration
+        At Sky White North, our team of Regulated Canadian Immigration
         Consultants (RCIC) offers comprehensive assistance throughout your
         Canada immigration journey. Contact us today for a detailed assessment
         of your profile for Canada Express Entry for Permanent Residence.

@@ -127,9 +127,9 @@ function Services() {
               Immigration for French Speakers
             </span>
             <span className="description">
-              Bienvenue! Streamline your Canadian immigration journey with
-              Canada PR Calling. We offer anywhere from tailored French exam
-              coaching, to Express Entry Applications for our Francophone
+              Bienvenue! Streamline your Canadian immigration journey with Sky
+              White North Immigration. We offer anywhere from tailored French
+              exam coaching, to Express Entry Applications for our Francophone
               individuals seeking a new home in Canada.
             </span>
             <Link
@@ -152,10 +152,10 @@ function Services() {
             <span className="hidden-header">Business Investor Visa</span>
 
             <span className="description">
-              Unlock economic opportunities with Canada PR Calling. Our experts
-              simplify the Business Investor Visa process, guiding you through
-              investments and applications. Propel your business forward in
-              Canada with our specialized services.
+              Unlock economic opportunities with Sky White North Immigration.
+              Our experts simplify the Business Investor Visa process, guiding
+              you through investments and applications. Propel your business
+              forward in Canada with our specialized services.
             </span>
             <Link className="read-more" to="/services/business/about">
               Read More

@@ -7,7 +7,7 @@ function NovaSoctiaPNP() {
     <>
       <h1>Nova Scotia PNP</h1>
       <h2>
-        Why should you select Nova Scotia PNP Pathways with Canada PR Calling?
+        Why should you select Nova Scotia PNP Pathways with Sky White North?
       </h2>
       <p>
         Nova Scotia, known for its thriving economy and welcoming communities,
@@ -15,9 +15,9 @@ function NovaSoctiaPNP() {
         residency.
       </p>
       <p>
-        At Canada PR Calling, we specialize in guiding you through the Nova
-        Scotia Provincial Nominee Program (PNP) with our expert team led by RCIC
-        lawyer Kawaljit Shangari.
+        At Sky White North Immigration, we specialize in guiding you through the
+        Nova Scotia Provincial Nominee Program (PNP) with our expert team led by
+        RCIC lawyer Kawaljit Shangari.
       </p>
       <h2>What are the different pathways Nova Scotia PNP?</h2>
       <p>
@@ -226,7 +226,7 @@ function NovaSoctiaPNP() {
         </Accordion>
       </div>
       <p>
-        Let Canada PR Calling be your trusted partner in navigating the Nova
+        Let Sky White North be your trusted partner in navigating the Nova
         Scotia PNP. Our experienced professionals will provide personalized
         guidance and support throughout your application process, ensuring a
         smooth and successful journey to Canadian permanent residency. Contact

@@ -38,21 +38,20 @@ function TCFAndTEF() {
       </p>
       <p>
         Overall, achieving a high score on the TCF/TEF exam is beneficial for
-        Canada PR calling individuals seeking to qualify for Canada PR,
-        categorically if they plan to settle (and land a bilingual job) in
-        French-speaking regions of the country and certainly if they want to
-        improve their CRS score in the Express Entry system. Do this to
-        battleproof your future in your Canada PR calling!
+        individuals seeking to qualify for Canada PR, categorically if they plan
+        to settle (and land a bilingual job) in French-speaking regions of the
+        country and certainly if they want to improve their CRS score in the
+        Express Entry system.
       </p>
       <h2>Begin Your French Learning Today</h2>
       <p>
-        Canada PR calling offers a comprehensive program designed to help you
-        achieve a CLB 7+ score in the TCF/TEF Canada Exam through the Express
-        Entry pathway. To qualify for Express Entry, you must demonstrate your
-        French language proficiency by taking an approved language test such as
-        TCF/TEF Canada or TCF Canada. By completing the Canadaprcalling French
-        Facilitation Programs, you can prepare for the TCF/TEF exam in just six
-        months.
+        Sky White North Immigration offers a comprehensive program designed to
+        help you achieve a CLB 7+ score in the TCF/TEF Canada Exam through the
+        Express Entry pathway. To qualify for Express Entry, you must
+        demonstrate your French language proficiency by taking an approved
+        language test such as TCF/TEF Canada or TCF Canada. By completing the
+        Sky White North French Facilitation Programs, you can prepare for the
+        TCF/TEF exam in just six months.
       </p>
       <p>
         Here's a step-by-step guide to successfully obtaining your PR Visa
@@ -72,7 +71,7 @@ function TCFAndTEF() {
         </li>
         <li>
           Enhance French skills using French B2/C1 Level before starting the EE
-          process, as recommended by Canada PR calling. This will aid in your
+          process, as recommended by Sky White North. This will aid in your
           transition to Canada. Market yourself to Canadian firms and contacts
           by sending well-drafted emails showcasing your skills and experience.
         </li>
@@ -87,7 +86,7 @@ function TCFAndTEF() {
           after receiving CoPR.
         </li>
       </ul>
-      <p>Canada PR Calling offers TCF Facilitation programs:</p>
+      <p>Sky White North Immigration offers TCF Facilitation programs:</p>
       <ol>
         <li>
           <b>TCF Facilitation Basic: </b>144 days (A1-C1) for CLB 7.
@@ -97,7 +96,7 @@ function TCFAndTEF() {
         </li>
       </ol>
       <p>
-        Contact Canada PR Calling to enroll in the program and fulfill your
+        Contact Sky White North to enroll in the program and fulfill your
         Canadian Immigration Dream.
       </p>
     </>

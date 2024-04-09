@@ -7,14 +7,15 @@ function NewBrunswickPNP() {
     <>
       <h1>New Brunswick PNP</h1>
       <p>
-        Welcome to Canada PR Calling, your trusted partner for achieving
-        Canadian permanent residency through the New Brunswick Provincial
-        Nominee Program (NBPNP), led by RCIC lawyer Kawaljit Shangari.
+        Welcome to Sky White North Immigration, your trusted partner for
+        achieving Canadian permanent residency through the New Brunswick
+        Provincial Nominee Program (NBPNP), led by RCIC lawyer Kawaljit
+        Shangari.
       </p>
       <p>
-        At Canada PR Calling, we simplify the immigration process for
-        individuals looking to settle in New Brunswick, providing expert
-        guidance and support every step of the way.
+        At Sky White North, we simplify the immigration process for individuals
+        looking to settle in New Brunswick, providing expert guidance and
+        support every step of the way.
       </p>
       <h2>What are the pathways in NBPNP?</h2>
       <p>Let's explore the pathways offered by the NBPNP:</p>
@@ -261,7 +262,7 @@ function NewBrunswickPNP() {
           </AccordionDetails>
         </Accordion>
       </div>
-      <h2>Why Choose Canada PR Calling for NBPNP?</h2>
+      <h2>Why Choose Sky White North for NBPNP?</h2>
       <ul>
         <li>Expert guidance from RCIC lawyer Kawaljit Shangari.</li>
         <li>Simplified process tailored to your needs.</li>
@@ -269,16 +270,16 @@ function NewBrunswickPNP() {
       </ul>
       <h2>How to Get Started?</h2>
       <ol>
-        <li>Contact Canada PR Calling to schedule an initial consultation.</li>
+        <li>Contact Sky White North to schedule an initial consultation.</li>
         <li>Determine your eligibility for the NBPNP streams.</li>
         <li>
           Receive personalized guidance and support to submit your application.
         </li>
       </ol>
       <p>
-        Embark on your Canadian journey with Canada PR Calling and achieve your
-        dream of permanent residency in New Brunswick. Contact us today to get
-        started!
+        Embark on your Canadian journey with Sky White North Immigration and
+        achieve your dream of permanent residency in New Brunswick. Contact us
+        today to get started!
       </p>
     </>
   );

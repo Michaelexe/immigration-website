@@ -17,8 +17,8 @@ function WhyWorkInCanada() {
         trajectory and elevate your chances of obtaining permanent residency.
         Whether you seek employment in Canada for immigration purposes or to
         explore a new labor market, obtaining the appropriate permits and visas
-        is paramount. As a foreign national pursuing a Canadian work permit,
-        canadaprcalling.com streamlines this process for you.
+        is paramount. As a foreign national pursuing a Canadian work permit, Sky
+        White North streamlines this process for you.
       </p>
       <p>
         There exist over a hundred different types of work permits, each

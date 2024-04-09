@@ -154,9 +154,9 @@ function YukonPNP() {
           </AccordionDetails>
         </Accordion>
       </div>
-      <h2>How Can Canada PR Calling Assist You?</h2>
+      <h2>How Can Sky White North Immigration Assist You?</h2>
       <p>
-        Our team at Canada PR Calling has aided numerous individuals in their
+        Our team at Sky White North has aided numerous individuals in their
         Canada PR applications. With the guidance of our RCIC lawyer, Kawaljit
         Shangari, we will navigate you through your application process and
         identify the right pathway to Canada. Leveraging our extensive

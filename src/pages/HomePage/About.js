@@ -27,7 +27,7 @@ function About() {
         <div className="text">
           <h1>About Us</h1>
           <p>
-            Welcome to Canada PR Calling - your premier Canadian immigration
+            Welcome to Sky White North - your premier Canadian immigration
             partner. We specialize in turning aspirations into realities.
           </p>
           <p>
@@ -41,7 +41,7 @@ function About() {
             your unique needs.
           </p>
           <p>
-            Choose Canada PR Calling for a trusted, personalized, and efficient
+            Choose Sky White North for a trusted, personalized, and efficient
             pathway to your Canadian dream
           </p>
         </div>

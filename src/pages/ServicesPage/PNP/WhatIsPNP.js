@@ -4,7 +4,7 @@ function WhatIsPNP() {
   return (
     <>
       <p>
-        At Canada PR Calling, we recognize that the immigration process can be a
+        At Sky White North, we recognize that the immigration process can be a
         complex task, especially when it comes to Canada. Many individuals opt
         for the Canada PNP as their chosen immigration program. Here's a brief
         overview of what the PNP entails, how it functions, and why it might be
@@ -20,7 +20,7 @@ function WhatIsPNP() {
       <p>
         However, it's essential to conduct thorough research before applying for
         each PNP, as each program has its own set of eligibility criteria, and
-        we at canadaprcalling, perform this action well in advance for your ease
+        we at Sky White North, perform this action well in advance for your ease
         of application.
       </p>
       <h2>How Does the Canada PNP Work?</h2>

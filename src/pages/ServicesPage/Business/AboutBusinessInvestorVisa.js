@@ -113,7 +113,7 @@ function AboutBusinessInvestorVisa() {
       </div>
       <h2>How can we assist you?</h2>
       <p>
-        At Canada PR Calling, our team brings hands-on corporate experience from
+        At Sky White North, our team brings hands-on corporate experience from
         diverse industries.{" "}
       </p>
       <p>
@@ -127,8 +127,7 @@ function AboutBusinessInvestorVisa() {
         Programs.{" "}
       </p>
       <p>
-        Connect with us at CanadaPRCalling.com, and we'll be delighted to
-        collaborate with you.
+        Connect Sky White North and we'll be delighted to collaborate with you.
       </p>
     </>
   );

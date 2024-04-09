@@ -46,7 +46,7 @@ function Reviews() {
                 </p>
                 <p>
                   I have full trust and faith in them because of my personal
-                  success journey with Canada PR Calling and owe my deepest
+                  success journey with Sky White North and owe my deepest
                   regards for Kalwajit Sir."
                 </p>
               </div>
@@ -96,7 +96,7 @@ function Reviews() {
                   securing a job.
                 </p>
                 <p>
-                  Throughout this journey, Canada PR Calling provided invaluable
+                  Throughout this journey, Sky White North provided invaluable
                   advice at every step, addressing my specific needs.
                 </p>
                 <p>

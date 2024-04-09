@@ -5,7 +5,7 @@ function AboutStudyPermit() {
     <>
       <h1>Study In Canada</h1>
       <p>
-        At Canada PR Calling, we're here to turn your dream into a reality with
+        At Sky White North, we're here to turn your dream into a reality with
         our Study to Immigrate in Canada Program!
       </p>
       <h2>Procedure:</h2>
@@ -28,7 +28,7 @@ function AboutStudyPermit() {
         We simplify the process by offering guidance and support at every step
         of the way, making your journey smooth and hassle-free.
       </p>
-      <h2>What are the benefits of our program at Canada PR Calling?</h2>
+      <h2>What are the benefits of our program at Sky White North?</h2>
       <ul>
         <li>
           Comprehensive insights into study programs and pathways to permanent

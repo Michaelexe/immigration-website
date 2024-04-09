@@ -64,8 +64,8 @@ function Navbar() {
                 <b>Email:</b>
               </span>
               <span>
-                <a href="mailto:contact@canadaprcalling.com">
-                  contact@canadaprcalling.com
+                <a href="mailto:info@skywhitenorth.com">
+                  info@skywhitenorth.com
                 </a>
               </span>
             </div>
@@ -78,7 +78,7 @@ function Navbar() {
               <span className="subtext">
                 <b>Phone:</b>
               </span>
-              <span>+1 905-904-0560</span>
+              <span>+1 647-680-6658</span>
             </div>
           </div>
         </div>

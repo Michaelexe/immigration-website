@@ -10,12 +10,12 @@ function Eligibility() {
         available. There exists a variety of programs to consider, each with its
         own set of Prerequisites and Application Procedures. However, if you're
         seeking to apply through the Provincial Nominee Program (PNP) in Canada,
-        you've come to the right place at canadaprcalling.com.
+        you've come to the right place at Sky White North Immigration.
       </p>
       <p>
-        At Canada PR Calling, we recognize the significance of having access to
-        reliable and comprehensive information about the PNP. Here, we've
-        curated this guide specifically to assist you in navigating the
+        At Sky White North Immigration, we recognize the significance of having
+        access to reliable and comprehensive information about the PNP. Here,
+        we've curated this guide specifically to assist you in navigating the
         application process and staying abreast of the latest developments.
       </p>
       <h2>Provincial Nominee Program (PNP)</h2>
@@ -62,7 +62,7 @@ function Eligibility() {
         With our PNP Updates, you will stay informed with all the information
         necessary to make informed decisions about your immigration journey. If
         you still find yourself confused or in need of assistance with your PNP
-        application, do not hesitate to reach out to Canada PR Calling for
+        application, do not hesitate to reach out to Sky White North for
         guidance in navigating the application process.
       </p>
     </>

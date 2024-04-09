@@ -206,7 +206,7 @@ function NewfoundlandPNP() {
           </AccordionDetails>
         </Accordion>
       </div>
-      <h2>Why Choose Canada PR Calling for NBPNP?</h2>
+      <h2>Why Choose Sky White North for NBPNP?</h2>
       <ul>
         <li>Expert guidance from RCIC lawyer Kawaljit Shangari.</li>
         <li>Simplified process tailored to your needs.</li>
@@ -214,16 +214,16 @@ function NewfoundlandPNP() {
       </ul>
       <h2>How to Get Started?</h2>
       <ol>
-        <li>Contact Canada PR Calling to schedule an initial consultation.</li>
+        <li>Contact Sky White North to schedule an initial consultation.</li>
         <li>Determine your eligibility for the NBPNP streams.</li>
         <li>
           Receive personalized guidance and support to submit your application.
         </li>
       </ol>
       <p>
-        Embark on your Canadian journey with Canada PR Calling and achieve your
-        dream of permanent residency in New Brunswick. Contact us today to get
-        started!
+        Embark on your Canadian journey with Sky White North Immigration and
+        achieve your dream of permanent residency in New Brunswick. Contact us
+        today to get started!
       </p>
     </>
   );

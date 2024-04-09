@@ -167,7 +167,7 @@ function BritishColumbiaPNP() {
           for skilled refugees.
         </li>
       </ul>
-      <h2>How does Canada PR Calling assist you in obtaining PR?</h2>
+      <h2>How does Sky White North Immigration assist you in obtaining PR?</h2>
       <ul>
         <li>
           <b>Process Guidance:</b> Step-by-step assistance throughout the BC PNP
