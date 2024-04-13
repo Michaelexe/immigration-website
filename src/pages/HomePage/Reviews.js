@@ -115,7 +115,7 @@ function Reviews() {
             </div>
             <div>
               <h1>97%</h1>
-              <p>of our clients reccomend us</p>
+              <p>of our clients recommend us</p>
             </div>
             <img src={rcicPNG} alt="" />
           </div>
